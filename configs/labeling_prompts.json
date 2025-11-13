@@ -1,0 +1,5 @@
+{
+  "eval_music_rel": "You will be given the text of a youtube comment about a music video. Your task is to determine how relevant the comment is to the music itself as opposed to other aspects such as the video, the artist's appearance, or unrelated topics. Return a single number from 1 to 5, where 1 means completely irrelevant to the music, and 5 means highly relevant to the music. Return only the number. comment to evaluate: {sentence}",
+  "eval_deid": "Does this sentence contain any information that could reveal the speaker's identity such as locations, dates, names, social security numbers, or other unique identifiers? Return 1 for no, 2 for maybe, and 3 for yes. Sentence: {sentence}",
+  "eval_deid_2": "Based solely on the provided sentence, does it contain any information that can reveal the speaker's identity (e.g., specific names, exact dates, precise locations, social security numbers, or other unique identifiers)? Output a only single number: 1 for no, 2 for possibly, and 3 for yes. Sentence: {sentence}"
+}
