@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 import json, re
 
-inp_f = "/scratch/gpfs/MARGULIS/ij9216/projects/data/youtube-comments/retrieved_youtube_comments.ndjson"
+# inp_f = "/scratch/gpfs/MARGULIS/ij9216/projects/data/youtube-comments/retrieved_youtube_comments.ndjson"
+inp_f = "/scratch/gpfs/MARGULIS/ij9216/projects/data/youtube-comments/retrieved_youtube_comments_take2.ndjson"
 
 # Read all lines
 with open(inp_f, 'r') as f:
